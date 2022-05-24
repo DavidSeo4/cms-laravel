@@ -1,0 +1,33 @@
+html{
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(242, 243, 186);
+    margin: 0;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(29, 58, 16);
+}
+
+.menu li a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: .5em 1em;
+}
+
+@media screen and (min-width: 520px) {
+    .menu{
+        display: flex;
+    }
+}
+
+#app{
+    margin: auto;
+    max-width: 800px;
+}
