@@ -17,7 +17,7 @@
         <li>   <a href="{{ route( 'home') }}"> Home </a>  </li>
         <li>   <a href="{{ route( 'about') }}"> Acerca de... </a>  </li>
         <li>   <a href="{{ route( 'blog.index') }}"> Blog </a>  </li>
-        <li>   <a href="{{ route( 'contact') }}"> Contactos </a>  </li>
+        <li>   <a href="{{ route( 'contact') }}"> Contacto </a>  </li>
 
     </ul>
 
